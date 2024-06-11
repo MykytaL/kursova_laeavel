@@ -1,0 +1,17 @@
+.fixed-menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1000; /* Забезпечує, що меню буде зверху інших елементів */
+}
+.fixed-menu .nav-link {
+    color: white;
+    text-decoration: none;
+}
+.fixed-menu .nav-link:hover {
+    text-decoration: underline;
+}
+body {
+    padding-top: 60px; /* Висота меню, щоб не перекривати контент */
+}

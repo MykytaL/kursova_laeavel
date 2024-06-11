@@ -1,0 +1,31 @@
+.genre-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Дві колонки */
+    gap: 20px;
+    padding: 20px;
+}
+
+.genre-item {
+    text-align: center;
+}
+
+.genre-item img {
+    width: 80%; /* Зменшена ширина */
+    height: auto; /* Пропорційна висота */
+    max-height: 200px; /* Максимальна висота */
+    object-fit: cover; /* Масштабувати і обрізати зображення */
+    border-radius: 8px;
+}
+
+.genre-item h2 {
+    margin-top: 10px;
+}
+
+.genre-item a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.genre-item a:hover {
+    text-decoration: underline;
+}
